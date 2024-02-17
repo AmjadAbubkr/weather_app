@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 1em sans-serif;
+    background-color: #777;
+    text-transform: capitalize;
+    color: white;
+}
+
+.app {
+    background-color: rgb(28, 102, 102);
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 20px;
+}
+
+.app .search {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.app input {
+    position: relative;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    flex: 1;
+    height: 30px;
+    padding: 14px;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.icon {
+    outline: none;
+    border: none;
+    background: white;
+    width: 28px;
+    height: 28px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.icon img {
+    width: 16px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.temp {
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.city {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.extraDet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.extraDet .det {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.extraDet .det img {
+    width: 60px;
+}
+.extraDet .det  p{ 
+    margin: 0 20px 0 0;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.extraDet .two {
+    margin-left: 40px;
+}
+
